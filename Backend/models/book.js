@@ -9,6 +9,6 @@ const Book = sequelize.define("Book", {
     price:{type: DataTypes.INTEGER, allowNull: false},
     description:{type: DataTypes.STRING, allowNull: false},
     language:{type:DataTypes.STRING, allowNull:false}
-}, {timestamp: true}); 
+}, {timestamps: true}); 
 
 module.exports = Book;
